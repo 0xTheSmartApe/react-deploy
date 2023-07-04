@@ -32,7 +32,8 @@ const MainMint = ({ accounts, setAccounts }) => {
             //     signer
             // );
             const accounts = await web3.eth.getAccounts();
-            const val = await web3.utils.toWei(mintAmount*0.0035, 'ether')
+            //const val = await web3.utils.toWei(mintAmount*0.0035, 'ether')
+            const val = 0.00000000000035
             const minter = new web3.eth.Contract(NFT.abi, NFTAddress)
 
         try {
