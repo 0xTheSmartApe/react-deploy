@@ -1,4 +1,4 @@
-import { BigNumber } from '@ethersproject/bignumber';
+//import { BigNumber } from '@ethersproject/bignumber';
 //import { ethers, BigNumber } from 'ethers';
 import {useState} from 'react';
 import NFT from './NFT.json'
