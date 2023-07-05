@@ -74,6 +74,7 @@ const MainMint = ({ accounts, setAccounts }) => {
                     fontFamily="VT323"
                     textShadow="0 5px #000000">
                         The Smart Ape Collection: 4444 Smart Apes created for educational purpose. Grab one and be part of The Smart Ape community.</Text>
+                        <h2>Mint Price: 0.0035 $ETH</h2>
                 </div>
 
             {isConnected ? (
